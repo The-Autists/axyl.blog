@@ -1,0 +1,19 @@
+[book]
+authors = []
+language = "en"
+multilingual = false
+src = "src"
+title = "Revolt Frontend"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.katex]
+after = ["links"]
+
+[output]
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]

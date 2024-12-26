@@ -1,0 +1,10 @@
+node_modules
+coverage
+dist
+
+*.log
+
+.env*
+!.env.example
+.vercel
+.idea
