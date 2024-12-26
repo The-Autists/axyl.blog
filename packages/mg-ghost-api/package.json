@@ -1,0 +1,30 @@
+{
+  "name": "@tryghost/mg-ghost-api",
+  "version": "0.4.19",
+  "repository": "https://github.com/TryGhost/migrate/tree/main/packages/mg-ghost-api",
+  "author": "Ghost Foundation",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"Implement me!\"",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "lint": "eslint . --ext .js --cache",
+    "posttest": "yarn lint"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "jest": "29.7.0",
+    "jest-extended": "4.0.2"
+  },
+  "dependencies": {
+    "@tryghost/admin-api": "1.13.12"
+  }
+}
